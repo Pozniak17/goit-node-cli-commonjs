@@ -78,5 +78,4 @@ invokeAction(options);
 // invokeAction({ action: "remove", id: "fHQ7O1jimVf5lJ7mN_QjV" });
 
 //todo команди
-// npm start -- -a list
-// node src/index -a list
+// node index -a list
