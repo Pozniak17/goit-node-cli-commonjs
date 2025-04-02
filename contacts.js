@@ -1,6 +1,6 @@
-const fs = require("fs/promises");
+const fs = require("node:fs/promises");
 const { nanoid } = require("nanoid");
-const path = require("path");
+const path = require("node:path");
 
 //  * Розкоментуй і запиши значення
 const contactsPath = path.join(__dirname, "db", "contacts.json");
